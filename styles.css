@@ -1,0 +1,198 @@
+
+
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+
+
+body.accueil{
+    background-position: center;
+    background-size: 70%;
+
+}
+
+
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 30px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 100px;
+    box-shadow: none;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: transparent;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+
+
+nav {
+    background-color: none;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    min-width: 20px;
+    margin-left: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+nav a:hover{
+    color: yellow ;
+    border-bottom: none;
+}
+
+.sous{
+    display: none;
+    box-shadow: none;
+    background-color: transparent;
+    position: absolute;
+    padding: 10px 2px;
+    width: 20%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: right;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 5px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: transparent;
+}
+
+
+section {
+    padding: 20px;
+    background-color: none;
+    margin: 70px;
+    border-radius: 5px;
+    box-shadow: none;
+    
+}
+
+.paragraphe
+{
+    color: white;
+    font-size: 130%;
+}
+
+section h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+section h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+section h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+section p{
+    color: #fff;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
+  }
+  
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo a{
+    color: #fff;
+    padding: 12px 22PX;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 30px;
+    left: 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.logo span{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2rem;
+}
